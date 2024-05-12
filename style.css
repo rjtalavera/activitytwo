@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+#one {
+    float: left;
+	font-size: 16px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+	width: 32%; 
+    margin-top: 30px; 
+    margin-left: 20px; 
+     
+   
+}
+
+#one h1 {
+    word-wrap: break-word;
+    font-size: 50px;
+}
+
+#one p {
+	word-wrap: break-word;
+    line-height: 50px; 
+}
+
+#one button {
+    background-color: rgb(21, 174, 174);
+	padding: 10px 20px; 
+    margin-top: 10px; 
+    border-radius: 30px;
+    color: white;
+    border: none;
+   
+}
+
+#two {
+    float: left;
+    font-size: 16px; 
+	width: 30%; 
+    margin-left: 25px; 
+   
+}
+
+#three {
+    background-color: rgb(222, 152, 21);
+    text-align: center;
+	color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#three h1{
+    word-wrap: break-word;
+}
+#four {
+    background-color: rgb(21, 174, 174);
+    padding: 20px; 
+	color: white;
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+#four p{
+    word-wrap: break-word;
+}
+#four button {
+    color: rgb(21, 174, 174);
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px; 
+    margin-top: 10px; 
+}
+
+#five img {
+    float: right;
+    width: 35%; 
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+    background-color: rgb(105, 108, 109) ;
+}
+
+
+#footer {
+	float: right;
+	text-align: center;
+    border: 1px solid rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 100%;
+	padding: 10px; 
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #one{
+        float: none;
+		width: 100%;
+    }
+    #two {
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+    
+    #five{
+        float: left;
+        width: 50%;
+    }
+    #five img{
+        width: 380px;
+        height: 619px;
+    }
+    #footer{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #one{
+        float: right;
+        width: 100%;
+    }
+    #two {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    #five{
+        float: left;
+        width: 100%;
+    }
+    #five img{
+        width: 465px;
+        height: 619px;
+    }
+}
